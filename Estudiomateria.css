@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 40px;
+    position: relative;
+    background-image: url(Imagenes/fondoestrellas.jpg);
+   
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    text-align: center;
+   
+      font-family: "Oswald", sans-serif;
+    
+    }
+
+p{
+    margin: 12px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: salmon;
+    height: 50px;
+}
+li{
+    list-style:none;
+    width: 170px;
+    text-align: center;
+    background-color: salmon;
+    margin: 2px;
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: salmon;
+    padding: 6px solid ;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+   margin: 5px;
+   border-radius: 100px;
+}
+a{
+    color: black;
+ 
+}
+a:hover{
+    color: rgb(248, 243, 248);
+}
+.historia{
+    background-color: rgb(224, 17, 17);
+    margin: 5px solid;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+.padreelemento{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    width: 100%;
+    margin: 10px 0 300px 0;
+    row-gap: 15px;
+    column-gap: 15px;
+    grid-template-rows: min-content; /*Se achica al texto*/
+}
+.elemento1{
+    background-color: rgb(230, 40, 40);
+}
+
+
+.hijo1{
+background-color: rgb(224, 163, 163);
+margin: 10px;
+border-radius: 10px;
+text-align: center;
+
+}
+img{
+    height: 380px;
+    width: 300px;
+}
+#hora{
+    width: 389px;
+}
